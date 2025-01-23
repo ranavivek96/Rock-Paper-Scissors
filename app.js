@@ -14,15 +14,18 @@ const genCompChoice = () => {
 const drawGame = () => {
     console.log("game was draw.");
     msg.innerText = "Game Draw. Play Agin"
+    msg.style.backgroundColor = "#081b21";
 }
 
-const showWinner = (userwin) => {
+const showWinner = (userwin, userChoice, compChoice) => {
     if(userwin) {
         console.log("You Win!");
-        msg.innerText = "You Win!";
+        msg.innerText = `You Win! Your ${userChoice} beats ${compChoice}`;
+        msg.style.backgroundColor = "green";
     } else {
         console.log("You Lose");
-        msg.innerText = "You Lose";
+        msg.innerText = `You Lose! ${compChoice} beats your ${userChoice}`;
+        msg.style.backgroundColor = "red";
     }
 };
 
@@ -48,7 +51,7 @@ const playGame = (userChoice) => {
             //rock, paper
             userwin = compChoice === "rock" ? false :true;
         }
-        showWinner(userwin);
+        showWinner(userwin, userChoice, compChoice);
     }
 }
 
