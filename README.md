@@ -22,5 +22,5 @@ A simple and interactive Rock-Paper-Scissors game built with HTML, CSS, and Java
 - Implement a multiplayer mode.
 - Add sound effects for moves and results.
 
-* Enjoy playing! ✨
+✨ Enjoy playing! ✨
 
