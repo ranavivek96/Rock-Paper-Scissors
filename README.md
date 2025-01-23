@@ -17,11 +17,5 @@ A simple and interactive Rock-Paper-Scissors game built with HTML, CSS, and Java
 - style.css: Styling for the game interface.
 - script.js: Game logic and interactivity.
 
-# Future Enhancements
-- Include a reset button for quick restarts.
-- Add animations for better user experience.
-- Implement a multiplayer mode.
-- Add sound effects for moves and results.
-
 ✨ Enjoy playing! ✨
 
