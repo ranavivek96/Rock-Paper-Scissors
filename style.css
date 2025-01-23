@@ -34,11 +34,11 @@ img {
 }
 
 .choices {
-    display: flex; /*for div Vertical to Horizontal format */
+    display: flex; 
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .score-board {
@@ -48,7 +48,7 @@ img {
     font-size: 2rem;
     margin-top: 3rem;
     gap: 5rem;  
-    }
+}
 
 #user-score, #comp-score {
     font-size: 4rem;
@@ -65,7 +65,7 @@ img {
     background-color: #081b31;
     color: white;
     font-size: 2rem;
-    display: inline; /* for only use needed space */
+    display: inline;
     padding: 1rem;
     border-radius: 1rem;
 }
